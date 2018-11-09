@@ -15,7 +15,6 @@ tail -f /var/log/apache2/body-audit.log
 ```
 
 ### See the logs for dumpio
-### See the logs for mod_security
 ```
 docker exec -it apache /bin/bash
 tail -f /var/log/apache2/error.log
